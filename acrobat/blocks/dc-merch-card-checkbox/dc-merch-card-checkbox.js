@@ -210,7 +210,6 @@ function addReaderButton(button, md, aiOsiCodes) {
     });
     observer.observe(button, { attributes: true, attributeFilter: ['aria-label'] });
   }
-
 }
 function addAriaLabel(button, newButton) {
   if (button.hasAttribute('aria-label')) {
